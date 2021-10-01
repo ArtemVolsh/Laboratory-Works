@@ -1,0 +1,380 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+/* == RESET CSS == */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	line-height: 150%;
+}
+
+li {
+}
+
+.header-wrapper {
+	margin: 0 auto;
+
+	max-width: 1200px;
+}
+
+.upper-wrapper {
+	display: flex;
+	align-items: center;
+
+	text-align: center;
+
+	min-height: 50px;
+}
+
+.upper-wrapper span {
+	display: inline-block;
+
+	margin: 0 auto;
+}
+
+.header-inner-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0px 20px;
+
+	min-height: 50px;
+}
+
+.logo-holder {
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+
+	object-fit: contain;
+}
+
+.navigation {
+}
+
+.nav-ul {
+	display: flex;
+	flex-direction: row;
+}
+.navigation-link {
+	padding-left: 30px;
+}
+
+.body-wrapper {
+}
+
+.body-inner-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.body-inner-wrapper > *:nth-child(1) {
+	flex: 1 1 75%;
+}
+
+.body-inner-wrapper > *:nth-child(2) {
+	flex: 1 1 20%;
+}
+.title {
+	padding: 20px 0;
+	font-weight: 700;
+	font-size: large;
+}
+
+.image-holder {
+	display: flex;
+	flex-wrap: wrap;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	float: left;
+}
+
+.inner-image {
+	max-width: 200px;
+	padding: 20px 20px 20px 0;
+
+	margin: auto 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+:root {
+	--eerie-black: #242423;
+	--blue-munsell: #0091ad;
+	--queen-blue: #3a678f;
+	--amaranth-purple: #b7094c;
+	--jazzberry-jam: #a01a58;
+}
+
+.hero-main {
+	text-align: justify;
+}
+.hero-side {
+	align-self: center;
+
+	padding: 20px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+main {
+	padding: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+form > div > span {
+	padding-right: 10px;
+}
+
+form > div {
+	margin-bottom: 20px;
+	align-self: center;
+}
+
+form > a {
+	margin-bottom: 20px;
+
+	align-self: center;
+
+	text-decoration: underline;
+	color: var(--blue-munsell);
+}
+
+.table-section {
+	display: flex;
+	justify-content: center;
+
+}
+
+table,
+th,
+td {
+	color: white;
+	padding: 30px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	overflow: auto;
+	font-family: "Ubuntu", "Verdana", "Arial", sans-serif;
+}
+
+tbody {
+	background-color: var(--queen-blue);
+}
+
+tr:hover {
+	background-color: lightseagreen;
+}
+
+tr.upper-heading {
+	vertical-align: middle;
+	text-align: center;
+
+	font-size: larger;
+}
+
+tr.main-heading {
+	line-height: 10%;
+	background-color: var(--amaranth-purple);
+	color: white;
+}
+
+tr.upper-heading {
+	line-height: 10%;
+	background-color: var(--amaranth-purple);
+	color: white;
+	font-weight: 700;
+}
+
+tr.sub-heading {
+	line-height: 150%;
+	background-color: var(--jazzberry-jam);
+	color: white;
+}
+
+tfoot {
+	color: white;
+}
+
+tr.buy-now-footer {
+	line-height: 150%;
+	background-color: var(--amaranth-purple);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.footer-wrapper {
+	margin-top: 25px;
+
+	background-color: var(--amaranth-purple);
+	color: white;
+}
+
+.footer-inner-wrapper {
+	display: flex;
+	text-align: center;
+
+	min-height: 50px;
+
+	justify-content: center;
+	align-items: center;
+}
