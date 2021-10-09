@@ -183,7 +183,8 @@ body {
 }
 
 .side-wrapper > * {
-flex: 1 1;}
+flex: 1 1;
+}
 
 
 .bottom-side-wrapper {
